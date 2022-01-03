@@ -1,0 +1,17 @@
+
+body {
+
+
+   min-height: 100vh;
+  font-family:"Poppins", sans-serif;
+  background: var(--white);
+
+  color: var(--color);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

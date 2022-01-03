@@ -1,0 +1,36 @@
+.select {
+  margin-left: 5px;
+  position: relative;
+  overflow: hidden;
+}
+.filter-todo {
+  padding: 11px;
+}
+/* Custom Select */
+
+select {
+  color: #ff6f47;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+/* Arrow */
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 5px;
+  background: #ff6f47;
+  cursor: pointer;
+  pointer-events: none;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background-image: none;
+}

@@ -1,0 +1,12 @@
+.form{
+    display:flex;
+    justify-content: space-between;
+}
+.list_todo{
+    display:flex;
+    flex-direction: column;
+    justifyc
+}
+.list_item{
+    font-size: 16px;
+}

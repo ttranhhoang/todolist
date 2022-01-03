@@ -1,0 +1,12 @@
+.form{
+    display:flex;
+    margin-bottom: ;
+}
+
+
+.list_item{
+    font-size: 16px;
+    display:flex;
+    justify-content: space-around;
+    
+}

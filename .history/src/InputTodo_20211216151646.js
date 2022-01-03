@@ -1,0 +1,21 @@
+import React from "react";
+import "./inputTodo.css";
+
+function InputTodo({ onClick,settext, ...props }) {
+  if (!onClick) {
+    return;
+  }
+
+  return (
+    <div>
+      <form>
+        <input className="input" {...props} />
+        <button type="submit" onClick={onClick}>
+          Add
+        </button>
+      </form>
+    </div>
+  );
+}
+
+export default InputTodo;

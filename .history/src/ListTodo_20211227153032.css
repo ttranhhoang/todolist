@@ -1,0 +1,20 @@
+.form{
+    display:flex;
+    margin-bottom: 20px;
+}
+
+
+.list_item{
+    background
+    font-size: 16px;
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    
+}
+.list_name {
+    cursor: pointer;
+}
+.list_name.through{
+    text-decoration: line-through;
+}

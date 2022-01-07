@@ -43,17 +43,13 @@ img {
 
   background: skyblue;
 }
-
-@media screen and (max-width: 767.98px) {
-  .app{
-    width: 350px;
-  }
-}
-
+@467
 .app_title{
   text-align: center;
   font-size: 50px;
+  font-weight: bold;
 }
+
 .active{
   color: red;
 }

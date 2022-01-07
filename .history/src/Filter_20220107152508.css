@@ -3,18 +3,17 @@
   position: relative;
   overflow: hidden;
 }
-
 .filter-todo {
-  padding: 12px 5px;
+  height: inherit;
+  padding: 11px;
 }
-
 /* Custom Select */
 
 select {
   color: #ff6f47;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
-  border: none;
+  border: 0
 }
 /* Arrow */
 .select::after {

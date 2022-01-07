@@ -9,9 +9,7 @@
   border: 0;
 }
 @media screen and (max-width: 767.98px) {
- .input[type="text"]{
-   font-size: 12px;
- }
+ .input
 }
 
 .input[placeholder="Update"] {

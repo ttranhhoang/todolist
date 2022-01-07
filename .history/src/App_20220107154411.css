@@ -53,7 +53,9 @@ img {
 .app_title{
   text-align: center;
   font-size: 50px;
+  font-weight: bold;
 }
+
 .active{
   color: red;
 }

@@ -3,11 +3,9 @@
   position: relative;
   overflow: hidden;
 }
-
 .filter-todo {
-  padding: 12px 5px;
+  padding: 12px;
 }
-
 /* Custom Select */
 
 select {

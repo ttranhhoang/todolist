@@ -3,8 +3,7 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import Filter from "./Component/Filter/Filter";
 import InputTodo from "./Component/Input/InputTodo";
-import ListTodo from "./Component/ListToDo/ListTodo"
-import Button from "./Component/Button/Button";
+
 import FilterAPI from "./FilterAPI/FilterAPI";
 import Search from "./Search/Search";
 

@@ -1,11 +1,11 @@
 import AddCircleIcon from "@mui/icons-material/AddCircle";
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import Filter from "./Component/Filter/Filter";
-import InputTodo from "./Component/Input/InputTodo";
-import ListTodo from "./Component/ListToDo/ListTodo"
-import Button from "./Component/Button/Button";
+import Button from "./Button";
+import Filter from "./Filter";
 import FilterAPI from "./FilterAPI/FilterAPI";
+import InputTodo from "./InputTodo";
+import ListTodo from "./ListTodo";
 import Search from "./Search/Search";
 
 function App() {

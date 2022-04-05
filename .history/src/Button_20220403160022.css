@@ -1,0 +1,13 @@
+.btn {
+  font-size: 16px;
+  border: 1px solid;
+  padding: 2px 2px;
+}
+button.btn-add {
+  background-color: transparent;
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid white;
+}
+button.btn-add:hover {
+  background-color: white;
+}

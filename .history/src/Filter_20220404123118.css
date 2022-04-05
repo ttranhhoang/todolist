@@ -1,0 +1,63 @@
+.select {
+  margin-left: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Custom Select */
+select.simple::part(listbox) {
+  border-radius: 10px;
+  background-color: red;
+  cursor: pointer;
+  padding: 3em;
+}
+select {
+  height: 100%;
+  color: #111;
+  background-color: transparent;
+
+  padding: 5px 10px;
+  font-family: "Poppins", sans-serif;
+
+  border-radius: 5px;
+  border: none;
+  border: 1px solid white;
+}
+select option {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding
+}
+/* Arrow */
+/* .select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  display: block;
+  padding: 12px 5px;
+  background: transparent;
+  width: 2em;
+  cursor: pointer;
+  pointer-events: none;
+} */
+.custom-select {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  display: block;
+  padding: 12px 5px;
+  background: transparent;
+  width: 2em;
+  height: 100%;
+  cursor: pointer;
+  pointer-events: none;
+}
+/* .custom-select::before {
+  content: "\25BC";
+  position: absolute;
+
+} */

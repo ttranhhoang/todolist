@@ -1,0 +1,38 @@
+.select {
+  margin-left: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.filter-todo {
+  padding: 12px 5px;
+}
+
+/* Custom Select */
+
+select {
+  height: 100%;
+  color: #111;
+  background-color: transparent;
+
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid white;
+}
+select option {
+  border: none;
+  outline: none;
+}
+/* Arrow */
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 12px 5px;
+  background: tran;
+  cursor: pointer;
+  pointer-events: none;
+}

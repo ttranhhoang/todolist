@@ -1,0 +1,4 @@
+
+const typingValue = ()=>{
+    type: ''
+}

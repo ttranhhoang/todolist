@@ -1,0 +1,23 @@
+body {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background: #ed4264; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #ffedbc,
+    #ed4264
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ffedbc,
+    #ed4264
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: black;
+  line-height: 1.5;
+  font-size: 0.875rem;
+
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}

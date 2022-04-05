@@ -1,0 +1,48 @@
+.select {
+  margin-left: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Custom Select */
+
+select {
+  height: 100%;
+  color: #fff;
+  background-color: transparent;
+
+  padding: 5px 25px 5px 10px;
+  font-family: "Poppins", sans-serif;
+
+  border-radius: 5px;
+  border: none;
+  border: 1px solid white;
+
+  cursor: pointer;
+  appearance: none;
+}
+select * {
+  color: #111;
+}
+/* Arrow */
+.select::after {
+  content: "\25BC";
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  display: block;
+  padding: 12px 5px;
+  background: transparent;
+  width: 2em;
+  height: 100%;
+  cursor: pointer;
+  pointer-events: none;
+
+  transition: all 200ms ease-in;
+}
+.select:hover::after{
+  transform: scale(1.2);
+} 
+

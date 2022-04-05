@@ -1,0 +1,38 @@
+.form {
+  display: flex;
+  height: 44px;
+  margin-bottom: 20px;
+}
+/* border linear gradient */
+.list_item {
+  /* background: transparent;
+  border: 5px solid transparent;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
+  border-radius: 10px; */
+
+  background: linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
+  border-radius: 10px;
+
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.list_name {
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+}
+.list_name.through {
+  text-decoration: line-through;
+  text-decoration-style: double;
+}
+.list_title {
+  text-align: center;
+}
+.list_form {
+  display: flex;
+  width: 100%;
+}

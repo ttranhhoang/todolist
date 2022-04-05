@@ -1,0 +1,46 @@
+.form {
+  display: flex;
+  height: 44px;
+  margin-bottom: 20px;
+}
+/* border linear gradient */
+ul .list_item {
+  /* border radius linear gradient */
+  position: relative;
+  background-clip: padding-box;
+  border: 10px solid transparent;
+  border-radius: 10px;
+
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+ul .list_item::before {
+  content: "";
+  position: absolute;
+  top:0;
+  bott
+  z-index: -1;
+  margin: -10px; /* same as border width */
+  border-radius: inherit; /* inherit container box's radius */
+  background-image: linear-gradient(to left, turquoise, greenyellow);
+}
+
+.list_name {
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+}
+.list_name.through {
+  text-decoration: line-through;
+  text-decoration-style: double;
+}
+.list_title {
+  text-align: center;
+}
+.list_form {
+  display: flex;
+  width: 100%;
+}

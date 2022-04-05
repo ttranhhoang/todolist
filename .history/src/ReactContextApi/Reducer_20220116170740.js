@@ -1,0 +1,7 @@
+
+
+const initialState = [{
+    value: '',
+    todos:[],
+}]
+
